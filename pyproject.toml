@@ -44,6 +44,7 @@ dependencies = [
     "aiohttp>=3.11.11",
     "brotli>=1.1.0",
     "humanize>=4.10.0",
+    "twilio~=9.6.4"
 ]
 classifiers = [
     "Development Status :: 4 - Beta",

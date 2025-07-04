@@ -173,6 +173,8 @@ COPY deploy/docker/* ${APP_HOME}/
 # copy the playground + any future static assets
 COPY deploy/docker/static ${APP_HOME}/static
 
+COPY scripts ${APP_HOME}/scripts
+
 # Change ownership of the application directory to the non-root user
 RUN chown -R appuser:appuser ${APP_HOME}
 
